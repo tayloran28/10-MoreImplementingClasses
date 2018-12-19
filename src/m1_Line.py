@@ -618,7 +618,6 @@ class Line(object):
         newy = (self.start.y + self.end.y)/2
         return Point(newx, newy)
 
-
     def is_parallel(self, line2):
         """
         What comes in:
@@ -721,7 +720,7 @@ class Line(object):
             print(line2)  # Should print: Line[(0, 1), (10, 20)]
         """
         # ---------------------------------------------------------------------
-        # TODO: 13.
+        # DONE: 13.
         #   a. READ the above specification, including the Example.
         #        ** ASK QUESTIONS AS NEEDED. **
         #        ** Be sure you understand it, ESPECIALLY the Example.
